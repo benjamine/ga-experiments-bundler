@@ -17,8 +17,7 @@
     "google",
     "experiments",
     "bundle",
-    "a/b",
-    "testing",
+    "a/b testing",
     "analytics"
   ],
   "author": "Benjamin Eidelman <beneidel@gmail.com>",
