@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var gaExperimentsBundler = require('../src/main');
+
+var fs = require('fs');
+
+if (process.argv.length < 3) {
+  console.log('\n  USAGE: ga-experiments-bundler id1 id2 id3 ...');
+  return;
+}
+
+var ids = process.argv.slice(2).join(' ').split(/[ ,]+/);
+
+gaExperimentsBundler.bundle(ids).then(function(js){
+  console.log(js);
+});

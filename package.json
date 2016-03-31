@@ -1,0 +1,33 @@
+{
+  "name": "ga-experiments-bundler",
+  "version": "0.0.1",
+  "description": "google experiments bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ga-experiments-bundler": "./bin/ga-experiments-bundler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamine/ga-experiments-bundler.git"
+  },
+  "keywords": [
+    "google",
+    "experiments",
+    "bundle",
+    "a/b",
+    "testing",
+    "analytics"
+  ],
+  "author": "Benjamin Eidelman <beneidel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjamine/ga-experiments-bundler/issues"
+  },
+  "homepage": "https://github.com/benjamine/ga-experiments-bundler#readme",
+  "dependencies": {
+    "request-promise": "^2.0.1"
+  }
+}
